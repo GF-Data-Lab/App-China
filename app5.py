@@ -72,7 +72,7 @@ st.set_page_config(page_title="Comparador & Anomalías", layout="wide")
 # 1. CONSTANTES COMUNES
 # ────────────────────────────
 # Pestaña «Comparación actual»
-ARRIVALS_FILE = Path("GESCOM (1).csv")
+ARRIVALS_FILE = Path("GESCOM.csv")
 PRICES_FILE   = Path("precios_mercado.csv")
 LIQ_PRICE_COL = "Sales price in RMB"  # ⇦ cámbialo según tu CSV
 # Parámetros de Azure OpenAI (idénticos a tu código original)
