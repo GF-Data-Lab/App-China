@@ -30,7 +30,7 @@ CLIENT_ID     = os.environ.get('CLIENT_ID', "a55dc350-8107-46dd-bd32-a46f921a65b
 CLIENT_SECRET = os.environ.get('CLIENT_SECRET', "5x_8Q~aHSERSz5jTocAS2V42GnJ5DJPUQgRCjbOq")
 REDIRECT_URI  = os.environ.get(
     'REDIRECT_URI',
-    "https://chinaprice-b6caard6euf5g6cj.brazilsouth-01.azurewebsites.net//"
+    "https://chinaprice-b6caard6euf5g6cj.brazilsouth-01.azurewebsites.net/"
 )
 SCOPE = os.environ.get('SCOPE', "User.Read")
 
